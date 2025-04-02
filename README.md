@@ -6,15 +6,15 @@ An example project for using uv in Docker images.
 
 Build the Docker image with:
 
-'''
+```
 docker build -t fastapi-image .
-'''
+```
 
 Run the Docker container locally with:
 
-'''sh
+```
 docker run --name fastapi-container -p 8000:8000 fastapi-app
-'''
+```
 
 Navigate to http://127.0.0.1:8000/?token=bruno in your browser to verify that the app is running correctly.
 
